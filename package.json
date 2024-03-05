@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "qa": "node index.js",
+    "test": "npx playwright test",
+    "show": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
